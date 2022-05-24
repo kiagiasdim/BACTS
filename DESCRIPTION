@@ -1,0 +1,29 @@
+Package: BACTS
+Title: Bayesian Augmented Clinical Trials
+Version: 0.0.1
+Authors@R: c( person("Dimitrios", "Kiagias", email = "d.kiagias@sheffield.ac.uk", role = c("aut", "cre")), 
+   person("Miguel", "Juarez", email = "m.juarez@sheffield.ac.uk", role = "aut" ) )
+Description: Application of methodology to combine in-vivo and in-silico data for an augmented clinical trial.
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Biarch: true
+Depends: 
+    R (>= 3.4.0)
+Imports: 
+    methods,
+    Rcpp (>= 0.12.0),
+    RcppParallel (>= 5.0.1),
+    rstan (>= 2.18.1),
+    rstantools (>= 2.2.0),
+    fitHeavyTail (>= 0.1.4)
+LinkingTo: 
+    BH (>= 1.66.0),
+    Rcpp (>= 0.12.0),
+    RcppEigen (>= 0.3.3.3.0),
+    RcppParallel (>= 5.0.1),
+    rstan (>= 2.18.1),
+    StanHeaders (>= 2.18.0)
+SystemRequirements: GNU make
