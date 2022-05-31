@@ -12,7 +12,9 @@ The library provides code to fit hierarchical Bayesian logistic models for dicho
 
 A second suite of routines combine the posterior distributions from these two sources of infromation into an in silico Augmented Clinial Trial.
 
-## Combining *in silico* and *in vivo* experiemts
+## Combining *in silico* and *in vivo* experiments
+
+The vignette below illustrates how to fit the logist models to *in silico* and *in vivo* sources and to combine them in a **B**ayesian **A**ugmented **C**linical **T**rial.
 
 ```R
 # Loading simulated UISS-TB dataset
