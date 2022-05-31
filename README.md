@@ -10,7 +10,7 @@ You will need [Stan](https://mc-stan.org/users/interfaces/rstan) and the [fitHea
 
 The library provides code to fit hierarchical Bayesian logistic models for dichotomous end points, with and without random effects.  We use the former to fit the *in silico* data and the latter for the *in vivo* trials.  
 
-A second suite of routines combine the posterior distributions from these two sources of infromation into an in silico Augmented Clinial Trial.
+A second suite of routines combine the posterior distributions from these two sources of information into an in silico Augmented Clinial Trial.
 
 ## Combining *in silico* and *in vivo* experiments
 
@@ -22,8 +22,8 @@ data("UISS_TB_data")
 
 library(rstan)
 library(fitHeavyTail)
-# options(mc.cores = parallel::detectCores())
-# rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())
+rstan_options(auto_write = TRUE)
 
 ## Initial fitting of independent models for in vivo and in silico trials - treatment group.
 ## These models will be used to obtain a power prior for the common betas of the trials.
