@@ -27,14 +27,11 @@ The dataset consists of individual matrices and vectors corresponding to the inp
     \item{\code{b_omega_u_c}}{numeric value ; fitted estimate for hyperparameter of random intercepts prior rate - control group }
   }
 }
-\details{
-...
-}
 \source{
-UISS-TB (github link here)
+UISS-TB simulator: https://combine.dmi.unict.it/?next=/UISS-TB/
 }
 \references{
-UISS-TB paper
+Russo, G., Sgroi, G., Parasiliti Palumbo, G.A. et al. Moving forward through the in silico modeling of tuberculosis: a further step with UISS-TB. BMC Bioinformatics 21, 458 (2020). https://doi.org/10.1186/s12859-020-03762-5
 }
 
 
