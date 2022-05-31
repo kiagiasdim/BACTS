@@ -3,7 +3,7 @@ Title: Bayesian Augmented Clinical Trials
 Version: 0.0.1
 Authors@R: c( person("Dimitrios", "Kiagias", email = "d.kiagias@sheffield.ac.uk", role = c("aut", "cre")), 
    person("Miguel", "Juarez", email = "m.juarez@sheffield.ac.uk", role = "aut" ) )
-Description: Application of methodology to combine in-vivo and in-silico data for an augmented clinical trial.
+Description: Implementation of the Kiagias et al (2021) methodology to combine in-vivo and in-silico data for an augmented clinical trial.
 License: GPL (>=2)
 Encoding: UTF-8
 LazyData: true
