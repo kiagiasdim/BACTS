@@ -17,6 +17,7 @@ A second suite of routines combine the posterior distributions from these two so
 The vignette below illustrates how to fit the logist models to *in silico* and *in vivo* sources and to combine them in a **B**ayesian **A**ugmented **C**linical **T**rial.
 
 ```R
+library(BACTS)
 # Loading simulated UISS-TB dataset
 data("UISS_TB_data")
 
